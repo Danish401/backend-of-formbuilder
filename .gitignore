@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Coverage reports
+coverage/
+
+# Optional: Local development database (MongoDB dumps, etc.)
+dump/
+
+# Optional: Ignore specific frontend/backend directories
+frontend/node_modules/
+backend/node_modules/
+frontend/.env
+backend/.env
